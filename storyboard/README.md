@@ -90,7 +90,6 @@ K = Thermal conductivity of Liquid in W/m2C
 A = Area of the cylinder in m2 (A = πr2, r is radius of plate)
 ΔT/ΔX = Temperature slope
 q = heat supplied ( V x i )
-Tool can be used to integrate formula in Markdown <b> [here](http://latex.codecogs.com/eqneditor/samples/example3.php) </b>
 
 
 ### 3. Flowchart 4
