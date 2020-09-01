@@ -18,7 +18,7 @@ The experiment involves concept necessary to determine the thermal conductivity 
 
 **Course Alignment:**
 
-B.Tech. Chemical Engineeringr
+B.Tech. Chemical Engineering
 
 **Universities Mapped:**
 
