@@ -27,7 +27,7 @@ AKTU, Lucknow
 | --- | :-- |
 | **Institute** | **NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY, GREATER NOIDA** |
 | **Email id** | [**manish@niet.co.in**](mailto:manish@niet.co.in) |
-| **Department** | Chemistry (Applied Sciences) |
+| **Department** | **Chemistry (Applied Sciences)** |
 
 **Mentor Details:**
 
@@ -35,7 +35,7 @@ AKTU, Lucknow
 | --- | :-- |
 | **Institute** | **MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY, MEERUT** |
 | **Email id** | [**rupali.sharma@miet.ac.in**](mailto:rupali.sharma@miet.ac.in) |
-| **Department** | **Pharmacy** |
+| **Department** | **Pharmaceutics** |
 
 **Contributors List:**
 
