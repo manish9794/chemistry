@@ -14,7 +14,7 @@ d. Capacity to absorb energy<br>
 
 
 Q 3. For liquids, thermal conductivity is governed by the relation<br>
-a. k=(-qA(T₂-T₁))/∆X
+a. k=(-qA(T₂-T₁))/∆X <br>
 <b>b. k= q ∆X/A(T₂-T₁) <br></b>
 c. k= q ∆X/2A(T₂-T₁) <br>
 d. k= q ∆X/(√A (T₂-T₁) )<br>
