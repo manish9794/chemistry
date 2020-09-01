@@ -24,7 +24,7 @@ B.Tech. Chemical Engineering
 AKTU, Lucknow
 
 | **Name of Developer** | **MANISH KAUSHIK** |
-| --- | --- |
+| --- | :-- |
 | **Institute** | **NOIDA INSTITUTE OF ENGINEERING AND TECHNOLOGY, GREATER NOIDA** |
 | **Email id** | [**manish@niet.co.in**](mailto:manish@niet.co.in) |
 | **Department** | Chemistry (Applied Sciences) |
@@ -32,7 +32,7 @@ AKTU, Lucknow
 **Mentor Details:**
 
 | **Mentored by** | **RUPALI SHARMA** |
-| --- | --- |
+| --- | :-- |
 | **Institute** | **MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY, MEERUT** |
 | **Email id** | [**rupali.sharma@miet.ac.in**](mailto:rupali.sharma@miet.ac.in) |
 | **Department** | **Pharmacy** |
