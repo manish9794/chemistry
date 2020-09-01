@@ -44,4 +44,4 @@ AKTU, Lucknow
 | 1 | Shubham Kumar | Student | Computer Sciences | Noida Institute of Engineering and Technology, Greater Noida | shubhofficial1@gmail.com |
 | 2 | Arpit Langia | Student | Electrical Engineering | Noida Institute of Engineering and Technology, Greater Noida | arpitlangia2328@gmail.com |
 | 3 | Diwakar Patel | Student | Electrical Engineering | Noida Institute of Engineering and Technology, Greater Noida | diwakarpatelsatya@gmail.com |
-| 4 | Shristi Agarwal | Student | Biotechnology Engineering | Noida Institute of Engineering and Technology, Greater Noida | 1901330540039@niet.co.in |
+| 4 | Shristi Agarwal | Student | Biotechnology | Noida Institute of Engineering and Technology, Greater Noida | 1901330540039@niet.co.in |
