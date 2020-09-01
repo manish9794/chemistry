@@ -1,7 +1,7 @@
 ## Post test
 <br>
 Q 1. Thermal conductivity is defined as the heat flow per unit time.<br>
-<b>**a. Across unit area where the temperature gradient is unity**<br></b>
+<b>a. Across unit area where the temperature gradient is unity<br></b>
 b. When the temperature gradient is unity<br>
 c. Across the wall with no temperature<br>
 d. Through a unit thickness of the wall<br><br>
