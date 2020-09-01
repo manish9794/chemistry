@@ -1,19 +1,14 @@
         
         var glycerinKValue= "0.285 W/(m⋅&#176C)";
         var hotplate="55.1 &#176C";
-        var gcoldplate="19.7 &#176C";
-        
-        
+        var gcoldplate="19.7 &#176C";        
         var freshwaterKValue=0.609;
         var fcoldplate="38.5 &#176C";
-
         var mercuryKValue=8.4;
         var mcoldplate="53.9 &#176C";     
         var selectedsample;
-
         var diameter="82.5 mm";
         var thickness="18 mm" ;
-
         var waterOn=true;
         var machineOn=true;
 
@@ -62,8 +57,7 @@
                 document.getElementById('demo5').innerHTML=diameter; 
                 resultShown=true;  
             } ;      
-            }
-            ;
+            };
 
 
             // code for check boxes
@@ -75,7 +69,7 @@
             for(i = 0; i < selectedradiovalue.length; i++) { 
                 if(selectedradiovalue[i].checked){
                   selectedsample=selectedradiovalue[i].value;
-                }
+                };
             };
             if(waterOn==true && machineOn==true){
                 currentvalue();
@@ -85,7 +79,7 @@
             } else{
                 alert('Please turn on machine/water supply');
             }
-        }
+        };
 
         //code for returing random number
 
@@ -107,9 +101,7 @@
             x = document.getElementsByClassName("mySlides1");
         } else{
             x = document.getElementsByClassName("mySlides2");
-        };
-
-        
+        };  
         for (i = 0; i < x.length; i++) {
          x[i].style.display = "none";  
          };
@@ -118,7 +110,7 @@
             myIndex = x.length};
         x[myIndex-1].style.display = "block";  
         setTimeout(carousel, 3000); // Change image every 3 seconds
-        }
+        };
 
         // check water checkbox is checked or not 
 
@@ -145,38 +137,19 @@
         // display graph on click
         function displaygraph(){
             setTimeout(delaygraph16sec,16000);
-        }
+        };
 
         function delaygraph16sec(){
             document.getElementById("graph").src="images/Graph.png"
-        }
+        };
 
         // show final results
         function showresults(){
             setTimeout(delay16sec,16000);
-        }
+        };
 
         function delay16sec(){
             finalresult();
-        }
-
-        // code for showing calculated k value
-
-        function showkvalue(){
-            if(resultShown==true){
-                if (selectedsample=="glycerin") {
-                    document.getElementById("demo1").innerHTML =glycerinKValue;  
-                } else if (selectedsample=="freshwater") {
-                    document.getElementById("demo1").innerHTML=freshwaterKValue;  
-                } else {
-                    document.getElementById("demo1").innerHTML =mercuryKValue;
-    
-                } ;  
-            } else{
-                document.getElementById("demo1").innerHTML ="N.A";
-            }
-                
-
-        }
+        };
 
 

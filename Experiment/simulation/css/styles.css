@@ -200,20 +200,3 @@ body{
 .w3-content {
 	max-width: 980px
 }
-
-/* typing effect */
-
-/* .typing{
-  animation: type 3s steps(50);
-  overflow: hidden;
-  white-space: nowrap; 
-}
-@keyframes type
-{
-  0% {
-    width: 0ch;
-  }
-  100%{
-    width: 39ch;
-  }
-} */
