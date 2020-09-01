@@ -6,7 +6,7 @@
 
 **About the Lab(objective):**
 
-The Heat Transfer laboratory delivers basic and technical information in and operation of heat transport methods, such as conduction, convection, and radiation.
+This lab delivers basic and technical information in and operation of heat transport methods, such as conduction, convection, and radiation. The various experiment to determine the amount of heat exchange in various modes of heat transfer including condensation & boiling for several geometries (like composite wall, lagged pipe etc).
 
 **About the Experiment:**
 
@@ -14,15 +14,15 @@ The experiment involves concept necessary to determine the thermal conductivity 
 
 **Target Audience:**
 
-Undergraduate Students, Faculties of Chemical and Mechanical Engineering
+3rd semester Undergraduate Students of Chemical Engineering, 5th Semester Undergraduate Students of Chemical Engineering, Faculties of Chemical and Mechanical Engineering 
 
 **Course Alignment:**
 
-Part of Chemical 3rd semester
+B.Tech. Chemical Engineeringr
 
 **Universities Mapped:**
 
-AKTU, Lucknow, IIT, Kanpur
+AKTU, Lucknow
 
 | **Name of Developer** | **MANISH KAUSHIK** |
 | --- | --- |
