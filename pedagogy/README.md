@@ -20,7 +20,7 @@
 
 <a name="LO"></a>
 #### 1. Focus Area : Instrumentation and Practical Skills
-<br>The experiment is based on instrument available in lab and student need to perform experiment.
+<br>The experiment is based on Fourier's conductivity instrument available in lab and student need to perform experiment.
 
 #### 2. Learning Objectives and Cognitive Level
 
@@ -45,7 +45,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u>  Guided Inquiry
 ###### Assessment Method: Formative assessment
 
-<u> <b>Description: </b> the conductivity of conductors should be higher than insulators and semiconductors. </u>
+<u> <b>Description: </b> The experiments is based on Fourier conductivity apparatus, a series of operations are involved to run the apparatus are guided, the student perform the experiment based on the instructions and understand the conductivity. </u>
 <br>
 <br/>
 <div align="right">
@@ -62,8 +62,10 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
-1.| User will be able to: <br> calculate the conductivity of different liquids | Set the voltage of the instrument, <br>analyze the thermal conductivity of liquid| 1. Thermal conductivity is defined as the heat flow per unit time if :<br>a. When the temperature gradient is unity<br>b. Across the wall with no temperature<br>c. Through a unit thickness of the wall<br>d. <strong><em>Across unit area where the temperature gradient is unity</em></strong><br>
-2.| User will be able to:<br> classify material on basis of conductivity |Change the liquid  <br> material with different <br>air, water, mercury,<br>glycerol|Lowest thermal detail<br>conductivity is shown by: <br>a.<strong><em> Air</em></strong><br>b. Water <br>c. Mercury<br>d. Glycerol <br>
+1.| User will be able to: <br> Describe the Fourier’s law of conductivity | Answer a question based on Fourier formula| 1. Thermal conductivity is defined as the heat flow per unit time if :<br>a. When the temperature gradient is unity<br>b. Across the wall with no temperature<br>c. Through a unit thickness of the wall<br>d. <strong><em>Across unit area where the temperature gradient is unity</em></strong><br>
+2.| User will be able to:<br> calculate the conductivity of different liquids |Select different sample for experiment  <br> |A graph show relative conductivity of different liquids <br>
+3.| User will be able to:<br> compare material on basis of conductivity |Compare the results of different liquids  <br> |Compare a good and bad conductor <br>
+4.| User will be able to:<br> examine the conductor and insulator materials |Change the liquid material with different water, mercury, glycerol  <br> |Lowest thermal conductivity is shown by: <br>a.<strong><em> Air</em></strong><br>b. Water <br>c. Mercury<br>d. Glycerol <br>
 
 
  <br>
