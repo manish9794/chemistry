@@ -1,0 +1,211 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Labs</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <script src="js/script.js"></script>
+    <script type="text/javascript">  
+        var glycerinKValue= 0.285;
+        var freshwaterKValue=0.609;
+        var mercuryKValue=8.4;     
+        var selectedsample;
+
+        // code for voltage slider 
+        function rangeSlide(value){
+            document.getElementById('rangeValue').innerHTML=value;
+            document.getElementById('current').innerHTML=Math.round(12/value*100)/100;};
+
+        function currentslide(value){
+          document.getElementById('current').innerHTML=value;
+        };
+
+        // code for current value
+        function result(){
+            var value=document.getElementById('rangeValue').innerHTML;
+            var Current=Math.round(12/value*100)/100;
+            document.getElementById("current").innerHTML =Current;
+        };
+
+
+        // code to return k value of selected sample
+
+        function finalresult(){
+            if (selectedsample=="glycerin") {
+                document.getElementById("demo1").innerHTML =glycerinKValue;   
+            } else if (selectedsample=="freshwater") {
+                document.getElementById("demo1").innerHTML=freshwaterKValue; 
+            } else {
+                document.getElementById("demo1").innerHTML =mercuryKValue; 
+            } ;      
+            }
+            ;
+
+
+            // code for check boxes
+        function displayRadioValue() { 
+            var selectedradiovalue = document.getElementsByName('sample');   
+            for(i = 0; i < selectedradiovalue.length; i++) { 
+                if(selectedradiovalue[i].checked){
+                  selectedsample=selectedradiovalue[i].value;
+                }
+            }
+            result();
+            finalresult();
+            carousel();
+        }
+
+        //code for returing random number
+
+        function getDecimal(min, max, decimalPlaces){
+          var rand = Math.random()*(max-min) + min;
+          var power = Math.pow(10, decimalPlaces);
+          return Math.floor(rand*power) / power;
+        };
+
+        //code for simulator design 
+
+
+        var myIndex = 0;
+        function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+         }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 3000); // Change image every 3 seconds
+        }
+
+
+
+    </script>
+  <div class="container">
+
+    <!-- header text -->
+    <div class="heading">Thermal Conductivity of a Liquid sample</div>
+    <div class="row">
+        <!-- first card -->
+        <div class="card">
+            <div class="card-header">
+              <h1>Sample</h1>
+            </div>
+            <br>
+            <br>
+            <div class="card-body">
+              <div class="row">     
+            <p>Select Sample </p>
+            <input type="radio" id="glycerin" name="sample" value="glycerin"  checked>
+            <label for="male">Glycerin</label>
+            <input type="radio" id="freshwater" name="sample" value="freshwater">
+            <label for="female">Fresh Water</label>
+            <input type="radio" id="mercury" name="sample" value="mercury">
+            <label for="other">Mercury</label>
+          </div>
+          <br><br>
+                <div class="row">
+                    <div>Water Supply </div>
+                    <div><label class="switch">
+                        <input type="checkbox" checked  id="waterCheckBox">
+                        <span class="slider round"></span>
+                      </label></div>
+                      <div>Machine</div>
+                    <div><label class="switch">
+                        <input type="checkbox" checked id="machineCheckBox" >
+                        <span class="slider round"></span>
+                      </label></div>
+                </div>
+                <br>
+                <br>
+
+                <div class="row"> 
+                  Enter Voltage(V) :
+                    <span id="rangeValue">12</span><br>
+                    <input  class="range" type="range" name="" value="12" min="12" max="50" onchange="rangeSlide(this.value)" 
+                    onmousemove="rangeSlide(this.value)">
+                </div>
+                <br><br>
+    
+                <div class="row">
+                  Value of Current (A) :
+                  <p id="current">1</p>
+                  <div style="min-width: 400px;"></div>
+                </div>
+
+              <a href="#" class="btn" onclick="displayRadioValue()">Start simulator</a>
+            </div>
+          </div>
+<!-- second card -->
+      <!-- <div class="card">
+        <div class="card-header">
+          <h1>Voltage</h1>
+        </div>
+        <div class="card-body">
+          <p>
+           Enter Voltage(V) :
+          </p>
+          <div>
+            <span id="rangeValue">12</span>
+            <input  class="range" type="range" name="" value="12" min="12" max="50" onchange="rangeSlide(this.value)" 
+            onmousemove="rangeSlide(this.value)">
+        </div>
+        <a href="#" class="btn" onclick="result()" >Submit 2</a>
+        </div>
+      </div> -->
+      
+
+     
+
+      <div class="card">
+        <div class="card-header">
+          <h1>Simulator</h1>
+        </div>
+        <div class="card-body">
+            
+
+              <div class="w3-content w3-section" style="max-width:500px">
+                <img class="mySlides" src="images/png 0.png" style="width:100%;">
+                <img class="mySlides" src="images/png 1.png" style="width:100%;display: none;">
+                <img class="mySlides" src="images/png 2.png" style="width:100%;display: none;">
+                <img class="mySlides" src="images/png 3.png" style="width:100%;display: none;">
+                <img class="mySlides" src="images/png 4.png" style="width:100%;display: none;">
+                <img class="mySlides" src="images/png 5.png" style="width:100%;display: none;">
+          
+          
+              </div>
+
+              <!-- progress bar  -->
+              
+              <h3 >Value of Thermal conductivity (k) :</h3>
+            <h3 id="demo1"></h3>
+    
+            
+        </div>
+      </div>
+
+
+
+
+       <!-- third  card -->
+
+       <!-- <div class="card">
+        <div class="card-header">
+          <h1>Graph</h1>
+        </div>
+        <div class="card-body">
+ 
+        </div>
+      </div> -->
+
+
+
+    </div>
+  </div>
+</body>
+</html>
