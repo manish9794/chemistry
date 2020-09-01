@@ -65,7 +65,7 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 1.| User will be able to: <br> Describe the Fourier’s law of conductivity | Answer a question based on Fourier formula| 1. Thermal conductivity is defined as the heat flow per unit time if :<br>a. When the temperature gradient is unity<br>b. Across the wall with no temperature<br>c. Through a unit thickness of the wall<br>d. <strong><em>Across unit area where the temperature gradient is unity</em></strong><br>
 2.| User will be able to:<br> calculate the conductivity of different liquids |Select different sample for experiment  <br> |A graph show relative conductivity of different liquids <br>
 3.| User will be able to:<br> compare material on basis of conductivity |Compare the results of different liquids  <br> |Compare a good and bad conductor <br>
-4.| User will be able to:<br> examine the conductor and insulator materials |Change the liquid material with different water, mercury, glycerol  <br> |Lowest thermal conductivity is shown by: <br>a.<strong><em> Air</em></strong><br>b. Water <br>c. Mercury<br>d. <strong><em>Glycerol</em></strong> <br>
+4.| User will be able to:<br> examine the conductor and insulator materials |Change the liquid material with different water, mercury, glycerol  <br> |Lowest thermal conductivity is shown by: <br>a.<strong><em> Water</em></strong><br>b. Mercury <br>c. <strong><em>**Glycerol**</em></strong> <br> d. All sample has same thermal conductivity<br>
 
 
  <br>
