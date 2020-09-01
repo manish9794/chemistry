@@ -90,27 +90,47 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "Thermal conductivity is defined as the heat flow per unit time",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "Across unit area where the temperature gradient is unity",                  ///// Write the option 1 inside double quotes
+        b: "When the temperature gradient is unity",                  ///// Write the option 2 inside double quotes
+        c: "Across the wall with no temperature",                  ///// Write the option 3 inside double quotes
+        d: "Through a unit thickness of the wall"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "a"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "Most metals are good conductor of heat because of",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "Transport of energy",                  ///// Write the option 1 inside double quotes
+        b: "Free electrons and frequent collision of atoms",                  ///// Write the option 2 inside double quotes
+        c: "Lattice defects",                  ///// Write the option 3 inside double quotes
+        d: "Capacity to absorb energy"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
+{
+      question: "For liquids, thermal conductivity is governed by the relation",
+      answers: {
+        a: "k=(-qA(T₂-T₁))/∆X",
+        b: "k= q ∆X/A(T₂-T₁)",
+        c: "k= q ∆X/2A(T₂-T₁)",
+        d: "k= q ∆X/(√A (T₂-T₁) )"
+      },
+      correctAnswer: "b"
+    },
+ {
+      question: "Lowest thermal conductivity is shown by",
+      answers: {
+        a: "Water",
+        b: "Mercury",
+        c: "Glycerin",
+        d: "All have same conductivity"
+      },
+      correctAnswer: "c"
+    },
 
 
     /* To add more MCQ's, copy the below section, starting from open curly braces ( { )
