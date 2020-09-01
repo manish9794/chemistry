@@ -1,10 +1,10 @@
-For thermal conductivity of liquids using Fourier’s law, the heat flow through the liquid from the hot fluid to cold fluid is the heat transfer through conductive fluid medium.
-Fourier’s equation: 
-Q=(-kA(T₂-T₁))/∆X
-At steady state, the average face temperatures are recorded 
-(Th and Tc) along with the amount of heat transfer (Q) knowing, the heat transfer area (Ah) and the thickness of the sample (∆X) across which the heat transfer takes place, the thermal conductivity of the sample can be calculated using Fourier’s law of heat conduction.
-The apparatus consists of a heater, it heals a thin layer of liquid. Funnel is provided with valve for filling the liquid. Drain valve is given for maintaining the liquid level. Plate is for circulation of water. Flow control valve is provided for controlling the flow of water. Six temperature sensors are provided to measure the temperature across the liquid layer.
-SPECIFICATIONS:
+For thermal conductivity of liquids using Fourier’s law, the heat flow through the liquid from the hot fluid to cold fluid is the heat transfer through conductive fluid medium.<br>
+Fourier’s equation: <br>
+Q=(-kA(T₂-T₁))/∆X <br>
+At steady state, the average face temperatures are recorded <br>
+(Th and Tc) along with the amount of heat transfer (Q) knowing, the heat transfer area (Ah) and the thickness of the sample (∆X) across which the heat transfer takes place, the thermal conductivity of the sample can be calculated using Fourier’s law of heat conduction.<br>
+The apparatus consists of a heater, it heals a thin layer of liquid. Funnel is provided with valve for filling the liquid. Drain valve is given for maintaining the liquid level.Plate is for circulation of water. Flow control valve is provided for controlling the flow of water. Six temperature sensors are provided to measure the temperature across the liquid layer.<br>
+<b> SPECIFICATIONS: <\b>
 Hot plate
 Material                               =         copper
 Diameter                             =         165 mm
