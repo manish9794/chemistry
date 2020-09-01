@@ -3,7 +3,7 @@
 | **Lab** | **(KCH-352) Heat Transfer Operation Lab** |
 | **Experiment** | **1. To find out the thermal conductivity of liquids** |
 
-**About the Lab(objective):**
+**About the Lab:**
 
 This lab delivers basic and technical information in and operation of heat transport methods, such as conduction, convection, and radiation. The various experiment to determine the amount of heat exchange in various modes of heat transfer including condensation & boiling for several geometries (like composite wall, lagged pipe etc).
 
