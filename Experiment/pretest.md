@@ -2,13 +2,13 @@
 #### Please attempt the following questions
 
 Q 1. The hot-end molecules vibrate with an even higher amplitude when one end is cold, transferring the heat from a single particle to the corresponding particle, and so on. What is the reason it is?<br>
-<b>a. Conduction<br></b>
+<b>**a. Conduction**<br></b>
 b. Convection<br>
 c. Radiation<br>
 d. Transmittance<br><br>
 
 Q 2. Solids with weakly bonded electrons are nice heat conductors.<br>
-<b>a. True<br></b>
+<b>**a. True**<br></b>
 b. False<br>
 
 3) If two waves with amplitude (y1) and (y2) travelling in the same medium reach at a point in the medium, then the resultant displacement at that point in the medium, will be given by __________ .<br>
