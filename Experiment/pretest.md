@@ -11,11 +11,10 @@ Q 2. Solids with weakly bonded electrons are nice heat conductors.<br>
 <b>**a. True**<br></b>
 b. False<br>
 
-3) If two waves with amplitude (y1) and (y2) travelling in the same medium reach at a point in the medium, then the resultant displacement at that point in the medium, will be given by __________ .<br>
-a) y1 -y2<br>
-<b>b) y1 + y2<br></b>
-c) y1 / y2<br>
-d) y1 * y2<br>
+3) The temperature of a body can be negative on the Kelvin scale<br>
+a) True<br>
+<b>**b) False**<br></b>
+
 
 4) The condition for destructive interference is: the path difference should be equal to __________. <br>
 <b>a) Odd integral multiple of wavelength<br></b>
