@@ -35,7 +35,7 @@ AKTU, Lucknow
 | --- | :-- |
 | **Institute** | **MEERUT INSTITUTE OF ENGINEERING AND TECHNOLOGY, MEERUT** |
 | **Email id** | [**rupali.sharma@miet.ac.in**](mailto:rupali.sharma@miet.ac.in) |
-| **Department** | **Pharmaceutics** |
+| **Department** | **Pharmaceutical Technology** |
 
 **Contributors List:**
 
