@@ -18,9 +18,3 @@ a) True<br>
 4) Temperature is a microscopic concept. <br>
 a) True<br>
 <b>**b) False**<br></b>
-
-5) In Newton's ring experiment, the diameter of the dark rings is proportional to __________ .<br>
-a) Odd natural numbers<br>
-b) Even natural numbers<br>
-c) Complex numbers<br>
-<b>d) square root of natural numbers<br></b>
