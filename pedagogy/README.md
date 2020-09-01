@@ -45,7 +45,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 ###### Name of Instructional Strategy  :    <u>  Guided Inquiry
 ###### Assessment Method: Formative assessment
 
-<u> <b>Description: </b> The experiments is based on Fourier conductivity apparatus, a series of operations are involved to run the apparatus are guided, the student perform the experiment based on the instructions and understand the conductivity. </u>
+<u> <b>Description: </b> The experiments is based on Fourier conductivity apparatus, a series of operations involved to run the apparatus are guided, the student perform the experiment based on the instructions and understand the conductivity. </u>
 <br>
 <br/>
 <div align="right">
