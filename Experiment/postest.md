@@ -1,14 +1,17 @@
 ## Post test
 <br>
-Q 1. The hot-end molecules vibrate with an even higher amplitude when one end is cold, transferring the heat from a single particle to the corresponding particle, and so on. What is the reason it is?<br>
-<b>a. Conduction<br></b>
-b. Convection<br>
-c. Radiation<br>
-d. Transmittance<br><br>
+Q 1. Thermal conductivity is defined as the heat flow per unit time.<br>
+<b>**a. Across unit area where the temperature gradient is unity**<br></b>
+b. When the temperature gradient is unity<br>
+c. Across the wall with no temperature<br>
+d. Through a unit thickness of the wall<br><br>
 
-Q 2. Solids with weakly bonded electrons are nice heat conductors.<br>
-<b>a. True<br></b>
-b. False<br>
+Q 2. Most metals are good conductor of heat because of.<br>
+a. Transport of energy<br>
+<b>**b. Free electrons and frequent collision of atoms**<br></b>
+c. Lattice defects<br>
+d. Capacity to absorb energy<br>
+
 
 Q 3. What will appear, if in place of lens, a plane glass making some angle with the glass stripe  is used?<br>
 <b>a. Alternate dark and bright fringes in shape of a straight line.<br></b>
