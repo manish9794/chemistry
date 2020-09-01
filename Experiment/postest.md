@@ -18,3 +18,9 @@ a. k=(-qA(T₂-T₁))/∆X <br>
 <b>b. k= q ∆X/A(T₂-T₁) <br></b>
 c. k= q ∆X/2A(T₂-T₁) <br>
 d. k= q ∆X/(√A (T₂-T₁) )<br>
+
+Q 4. Lowest thermal conductivity is shown by:<br>
+a. Water <br>
+b. Mercury<br>
+<b>c. Glycerin <br></b>
+d. All have same conductivity<br>
