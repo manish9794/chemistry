@@ -1,5 +1,5 @@
 | **Discipline** | **Chemical Engineering** |
-| --- | --- |
+| :-- | :-- |
 | **Lab** | **(KCH-352) Heat Transfer Operation Lab** |
 | **Experiment** | **1. To find out the thermal conductivity of liquids** |
 
