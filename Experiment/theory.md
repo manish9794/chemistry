@@ -18,10 +18,10 @@ Type = RTD PT – 100 type<br>
 Quantity = 6 Nos.<br>
 No.1 to No.3 mounted on hot plate <br>
 No.4 to No.6 mounted on cold plate <br>
-	Digital temperature indicator
-Range                                  =           to 199.9°C
-Least count                        =            0.1°C
-	Variac                                  =            2 amp, 230V AC 
-	Digital voltmeter             =             0 to 250 volts
-	Digital ammeter              =             0 to 2.5 amp
-	Heater                               =             Nichrome heater 440 watt  
+Digital temperature indicator<br>
+Range = up to 199.9°C<br>
+Least count = 0.1°C<br>
+Variac = 2 amp, 230V AC <br>
+Digital voltmeter = 0 to 250 volts<br>
+Digital ammeter = 0 to 2.5 amp<br>
+Heater = Nichrome heater 440 watt<br>  
