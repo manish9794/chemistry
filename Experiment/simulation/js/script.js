@@ -70,7 +70,7 @@
                 };
             };
             if(waterOn==true && machineOn==true){
-                // disablebutton();
+                myFunction();
                 currentvalue();
                 carousel();
                 showresults();
@@ -175,6 +175,12 @@
         //     var disablebutton=document.getElementById('btndisable');
         //     disablebutton.setAttribute('disable','disable');
         // }
+
+
+        function myFunction() {
+            document.getElementById("btndisable").disabled = true;
+            document.getElementById("btndisable").style.background= "#cccccc";
+          }
         
  
 
