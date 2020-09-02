@@ -36,21 +36,21 @@
 
         function finalresult(){
             if (selectedsample=="glycerin") {
-                document.getElementById("demo1").innerHTML =glycerinKValue;
+                // document.getElementById("demo1").innerHTML =glycerinKValue;
                 document.getElementById("demo2").innerHTML=hotplate;
                 document.getElementById('demo3').innerHTML=gcoldplate;
                 document.getElementById('demo4').innerHTML=thickness;
                 document.getElementById('demo5').innerHTML=diameter;  
                 resultShown=true; 
             } else if (selectedsample=="freshwater") {
-                document.getElementById("demo1").innerHTML=freshwaterKValue;
+                // document.getElementById("demo1").innerHTML=freshwaterKValue;
                 document.getElementById("demo2").innerHTML=hotplate;
                 document.getElementById('demo3').innerHTML=fcoldplate;
                 document.getElementById('demo4').innerHTML=thickness;
                 document.getElementById('demo5').innerHTML=diameter;  
                 resultShown=true; 
             } else {
-                document.getElementById("demo1").innerHTML =mercuryKValue;
+                // document.getElementById("demo1").innerHTML =mercuryKValue;
                 document.getElementById("demo2").innerHTML=hotplate;
                 document.getElementById('demo3').innerHTML=mcoldplate;
                 document.getElementById('demo4').innerHTML=thickness;
@@ -63,8 +63,6 @@
             // code for check boxes
 
         function displayRadioValue() {
-            // var x = document.getElementById("simulationimage");
-            // x.style.display="none";
             var selectedradiovalue = document.getElementsByName('sample');   
             for(i = 0; i < selectedradiovalue.length; i++) { 
                 if(selectedradiovalue[i].checked){
@@ -72,6 +70,7 @@
                 };
             };
             if(waterOn==true && machineOn==true){
+                // disablebutton();
                 currentvalue();
                 carousel();
                 showresults();
@@ -151,5 +150,32 @@
         function delay16sec(){
             finalresult();
         };
+
+        // verify function
+
+        function verify(){
+            console.log(resultShown);
+            if(resultShown==true ){
+                if (selectedsample=="glycerin") {
+                    document.getElementById("demo1").innerHTML =glycerinKValue;
+                } else if (selectedsample=="freshwater") {
+                    document.getElementById("demo1").innerHTML=freshwaterKValue;
+                } else {
+                    document.getElementById("demo1").innerHTML =mercuryKValue;
+                }
+            } else{
+                document.getElementById("demo1").innerHTML ="N.A";
+            }
+        }
+
+
+        // disable button
+
+        // function disablebutton(){
+        //     var disablebutton=document.getElementById('btndisable');
+        //     disablebutton.setAttribute('disable','disable');
+        // }
+        
+ 
 
 
