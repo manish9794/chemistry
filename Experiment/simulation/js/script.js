@@ -2,9 +2,9 @@
         var glycerinKValue= "0.285 W/(m⋅&#176C)";
         var hotplate="55.1 &#176C";
         var gcoldplate="19.7 &#176C";        
-        var freshwaterKValue=0.609;
+        var freshwaterKValue="0.609 W/(m⋅&#176C)";
         var fcoldplate="38.5 &#176C";
-        var mercuryKValue=8.4;
+        var mercuryKValue="8.4 W/(m⋅&#176C)";
         var mcoldplate="53.9 &#176C";     
         var selectedsample;
         var diameter="82.5 mm";
