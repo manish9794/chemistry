@@ -5,15 +5,15 @@
 
 **About the Lab:**
 
-This lab delivers basic and technical information in and operation of heat transport methods, such as conduction, convection, and radiation. The various experiment to determine the amount of heat exchange in various modes of heat transfer including condensation & boiling for several geometries (like composite wall, lagged pipe etc).
+This lab delivers basic technical information about operation of heat transport methods, such as conduction, convection, and radiation. The various experiment to determine the amount of heat exchange in various modes of heat transfer including condensation & boiling for several geometries (like composite wall, lagged pipe etc).
 
 **About the Experiment:**
 
-The experiment involves concept necessary to determine the thermal conductivity of liquid
+The experiment involves Fourier’s conductivity concept to determine the thermal conductivity of liquids. When a temperature gradient exists in a body, there is an energy transfer from the high temperature region to the low temperature region. Energy is transferred by conduction and heat transfer rate per unit area is proportional to the normal temperature gradient
 
 **Target Audience:**
 
-3rd semester Undergraduate Students of Chemical Engineering, 5th Semester Undergraduate Students of Chemical Engineering, Faculties of Chemical and Mechanical Engineering 
+3rd Semester Students 
 
 **Course Alignment:**
 
@@ -21,7 +21,7 @@ B.Tech. Chemical Engineering
 
 **Universities Mapped:**
 
-AKTU, Lucknow
+Dr. A.P.J. Abdul Kalam Technical University, Lucknow
 
 | **Name of Developer** | **MANISH KAUSHIK** |
 | --- | :-- |
