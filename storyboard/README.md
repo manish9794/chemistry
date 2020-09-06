@@ -8,16 +8,17 @@ The experiment is based on the Fourier law. It involves the heat conduction thro
 
 ### 2. Story:
 
-First the user will select the liquid. Then pour liquid in sample tube. The user will open the valve at the inlet of the cooling water jacket and maintain constant water flow rate. The user turns on the switch on the heater. Now user set the heat controller or voltage regulator which adjusts power input to heater. Wait till the temperatures of both plates are constant with time that is steady state is reached (timer for 15 sec start). Read the temperatures on digital temperature indicator (temperature of both plates will display for 3 sec).
+First the user will select the liquid on which he has to perform the experiment. User will select water valve in open position at the inlet of the cooling water jacket and maintain constant water flow rate. The user turns on the switch on the heater. User set the heat controller or voltage regulator which adjusts power input to heater. Wait till the temperatures of both plates are constant with time that is steady state is reached. Read the temperatures on digital temperature indicator and calculate the thermal conductivity. User can verify the results and compare conductivity rate of different liquids.
 
 #### 2.1 Set the Visual Stage Description:
-In the simulator user will be able to see the virtual prototype of experimental setup resembling the actual experiment setup. Setup consists of two metal plates of 100mm diameter placed at top of each other separated by 18mm width. The sample liquid is filled in the space between plates called sample tube. Six thermocouples are splaced on the plates (three each) to measure temperature of the plates. A heating unit which provides heat to the lower metal plates using electrical energy. The user console provided with power switch, voltage regulator and display for Voltage, current, temperature.
+In the simulator user will be able to see the virtual prototype of experimental setup resembling the actual experiment setup. Setup consists of two metal plates of 165mm diameter placed at top of each other separated by 18mm width. The sample liquid is filled in the space between plates called sample tube. Six thermocouples are placed on the plates (three each) to measure temperature of the plates. A heating unit which provides heat to the lower metal plates using electrical energy. The user console provided with power switch, voltage regulator and display for Voltage, current, temperature.
   
 #### 2.2 Set User Objectives & Goals:
 
-1. To verify the Fourier law of conductivity
-2. calculate and compare the thermal conductivity of different liquids.
-3. classify material on basis of conductivity.
+1. Describe the Fourier’s law of conductivity
+2. calculate the conductivity of different liquids
+3. compare material on basis of conductivity
+4. examine the conductor and insulator materials
 
 #### 2.3 Set the Pathway Activities:
 
@@ -25,7 +26,7 @@ In the simulator user will be able to see the virtual prototype of experimental 
 2. Instruction “select a sample liquid” shown near the chemical shelf<br>
 3. User click on one of the sample by click on it.<br>
 4. Instruction “pour the sample” shown near the funnel<br>
-5. User drag the braker to the funnel<br>
+5. User drag the beaker to the funnel<br>
 6. Animation of pouring start automatically<br>
 7. Instruction “turn On the water supply” shown near the water inlet<br>
 8. User tern on water supply by a click<br>
@@ -68,8 +69,8 @@ Explanation : thermal conductivity is amount of heat conducted across unit area 
 Answer (a) It is defined as the ratio of thermal conductivity to the product of electrical conductivity and temperature.<br>
 
 ##### 2.5 Allow pitfalls:
-If user do not turn off the heater, before his further reading, the simulator will blow off.<br>
-If user do not release previous liquid from sample tube and try to add new liquid, the simulator will blow off. 
+If user do not turn on the water supply the simulator will show the pop up warning.<br>
+If user do not turn on the heater the simulator will show the pop up warning. 
 
 ##### 2.6 Conclusion:
 User will take approximately 10 minutes for understanding the procedure. The data generation through simulator require 4-5 minutes. Further user require 15 minutes to complete the calculation and plotting graph. So, total time taken to complete experiment is 30 minutes.
