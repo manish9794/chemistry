@@ -19,8 +19,8 @@
 <hr>
 
 <a name="LO"></a>
-#### 1. Focus Area : Instrumentation and Practical Skills
-<br>The experiment is based on Fourier's conductivity instrument available in lab and student need to perform experiment.
+#### 1. Focus Area : Reinforce theoritical concept
+<br>The experiment is based on Fourier's conductivity instrument available in lab and student need to perform experiment. The experiments helps to compare the conductivityn of differenet liquids to develop their understanding about Fourier's law.
 
 #### 2. Learning Objectives and Cognitive Level
 
@@ -83,11 +83,12 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| student select a <br> sample liquid| Sample Beaker come with cursor  |Selection of desired liquid
-2.| Student pour the  <br> sample in liquid cell  <br> through funnel  |A yellow color liquid filled (seen  <br>through transparent window)  |Sample liquid filling
-3.| Student turn ON the <br> cooling water supply <br>from TAP | A blue color liquid seen flowing  <br> through upper plate  |Cooling plate
-4.|Student turn on the  <br> apparatus (using <br>Knob) | Light on display panel turn | Switch on the apparatus
-5.|Student set the <br> Voltage level using <br>slider / knob | Set a desired V/A ratio| Calculation of heat transfer q=VxA
-6.|Student click on <br> “Done” | A timer of 15 sec start <br>Below plate start glowing red and a <br>light red color/arrow display going <br>through liquid to colder plate | Start of experiment
-7.|Nothing   | The temperature display showing <br>higher and lower temperature <br>every 3 sec difference | Observe <br>temperature of Hot <br>and Cold plate
+1.| student select a <br> sample liquid| Sample Beaker  |Selection of desired liquid
+2.| Student turn ON the <br> cooling water supply | A blue color liquid seen flowing  <br> through upper plate  |Cooling plate
+3.|Student turn on the  <br> apparatus (using <br>Knob) | Light on display panel turn | Switch on the apparatus
+4.|Student set the <br> Voltage level using <br>slider / knob | Set a desired V/A ratio| Calculation of heat transfer q=VxA
+5.|Student click on <br> “Done” | the simulator starts and gives readings | experiment simulation
+6.|Student perform calculation | nothing | manual calculation
+7.|Student click on Verify your results | reading for Thermal conductivity displays | verify calculation
+7.|Nothing | The relative conductivity graph is shown | Observe relative conductivity of different liquids
 
