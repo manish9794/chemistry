@@ -90,5 +90,5 @@ Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 5.|Student click on <br> “Done” | the simulator starts and gives readings | experiment simulation
 6.|Student perform calculation | nothing | manual calculation
 7.|Student click on Verify your results | reading for Thermal conductivity displays | verify calculation
-7.|Nothing | The relative conductivity graph is shown | Observe relative conductivity of different liquids
+8.|Nothing | The relative conductivity graph is shown | Observe relative conductivity of different liquids
 
