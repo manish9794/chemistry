@@ -54,7 +54,7 @@ In the simulator user will be able to see the virtual prototype of experimental 
   
 Explanation: A thermocouple is known as the tool which senses the temperature change. The thermocouple is based on the Peltier effect. The temperature difference is produced by the exchange of heat between electric junctions.<br>
 
-3. “Thermal conductivity represents the amount of heat conducted across the unit area when a temperature difference of one kelvin”.<br>
+3. “Thermal conductivity represents the amount of heat conducted across the unit area when a temperature difference of one kelvin”. select True or False<br>
   a)True<br>
   b)False<br>
   
