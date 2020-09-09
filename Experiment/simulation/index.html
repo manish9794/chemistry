@@ -9,6 +9,9 @@
 </head>
 
 <body>
+
+  
+
   <div class="container">
 
     <!-- header text -->
@@ -67,8 +70,6 @@
                   <div style="min-width: 400px;"></div>
                 </div>
                 <br>
-
-              <!-- <a href="#" class="btn" onclick="displayRadioValue()">Start simulator</a> -->
 
               <button id="btndisable" class="button" onclick="displayRadioValue()" > Start simulator</button>
             </div>
@@ -158,6 +159,84 @@
 
       <div class="card">
         <div class="card-header">
+          <h1>Quiz</h1>
+        </div>
+        <div class="card-body">
+
+          <table style="border: 0">
+
+            <tr>
+              <td><p> 1. Thermal conductivity is defined as the heat flow per unit time</p></td>
+            </tr>
+            <tr>
+              <td><label >
+                <input type="radio" name="optradio" checked value="1option1"> a) When the temperature gradient is unity
+              </label></td>
+            </tr>
+            <tr>
+              <td> <label>
+                <input type="radio" name="optradio" value="1option2"> b) Across the wall with no temperature
+              </label></td>
+            </tr>
+            <tr>
+              <td> <label >
+                <input type="radio" name="optradio" value="1option3"> c) Through a unit thickness of the wall
+              </label></td>
+            </tr>
+            <tr>
+              <td><label >
+                <input type="radio" name="optradio" value="1option4"> d) Across unit area where temperature gradient is unity
+              </label></td>
+            </tr>
+            </table>
+            <br>
+          
+
+            
+          <table style="border: 0">
+
+            <tr>
+              <td><p> 2. Most metals are good conductor of heat because of</p></td>
+            </tr>
+            <tr>
+              <td><label >
+                <input type="radio" name="optradio1" value="2option1" checked > a) Transport of energy
+              </label></td>
+            </tr>
+            <tr>
+              <td> <label>
+                <input type="radio" name="optradio1" value="2option2"> b) Free electrons and frequent collision of atoms
+              </label></td>
+            </tr>
+            <tr>
+              <td> <label >
+                <input type="radio" name="optradio1" value="2option3"> c) Lattice defects
+              </label></td>
+            </tr>
+            <tr>
+              <td><label >
+                <input type="radio" name="optradio1" value="2option4"> d) Capacity to absorb energy
+              </label></td>
+            </tr>
+            </table>
+            <br>
+            <h4 id="confirmation"></h4>
+
+            <br>
+            <button class="button2" onclick="submitquiz()">Submit quiz</button>
+
+           
+
+          
+        </div>
+      </div>
+
+    
+
+      <!-- fifth card -->
+
+      <div class="card">
+        <div class="card-header">
           <h1>Graph</h1>
         </div>
         <div class="card-body">
@@ -167,6 +246,7 @@
       </div>
 
 
+   
 
     </div>
   </div>

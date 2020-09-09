@@ -11,8 +11,10 @@
         var thickness="18 mm" ;
         var waterOn=true;
         var machineOn=true;
-
         var resultShown=false;
+
+        var useranswer1="";
+        var useranswer2="";
 
         // code for voltage slider 
         function rangeSlide(value){
@@ -74,7 +76,7 @@
                 currentvalue();
                 carousel();
                 showresults();
-                displaygraph();
+                // displaygraph();
             } else{
                 alert('Please turn on machine/water supply');
             }
@@ -135,10 +137,10 @@
 
         // display graph on click
         function displaygraph(){
-            setTimeout(delaygraph16sec,16000);
+            setTimeout(delaygraph1sec,1000);
         };
 
-        function delaygraph16sec(){
+        function delaygraph1sec(){
             document.getElementById("graph").src="images/Graph.png"
         };
 
@@ -168,20 +170,45 @@
             }
         }
 
-
-        // disable button
-
-        // function disablebutton(){
-        //     var disablebutton=document.getElementById('btndisable');
-        //     disablebutton.setAttribute('disable','disable');
-        // }
-
+        //code to disable button
 
         function myFunction() {
             document.getElementById("btndisable").disabled = true;
             document.getElementById("btndisable").style.background= "#cccccc";
-          }
+          };
+
+        // code for quiz verification
+
+        function submitquiz(){
+            var selectedanswer1 = document.getElementsByName('optradio');
+            for(i = 0; i < selectedanswer1.length; i++) { 
+                if(selectedanswer1[i].checked){
+                  useranswer1=selectedanswer1[i].value;
+                };
+            };
+            var selectedanswer2 = document.getElementsByName('optradio1');
+            for(i = 0; i < selectedanswer2.length; i++) { 
+                if(selectedanswer2[i].checked){
+                  useranswer2=selectedanswer2[i].value;
+                };
+            };
+
+            if(useranswer1=="1option4" && useranswer2=="2option2" ){
+               document.getElementById('confirmation').innerHTML="Correct 👍 ";
+               displaygraph();
+            }
+            else{
+                alert("Wrong answer , please try again ! 🎯")
+               
+            };
+        }
+
         
- 
+
+
+
+
+
+
 
 
