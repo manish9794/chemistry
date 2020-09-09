@@ -64,11 +64,7 @@ Least count                        =            0.1°C<br>
   b) Free electrons and frequent collision of atoms<br>
   c) Lattice defects<br>
   d) Capacity to absorb energy<br><br>
-3. For liquids, thermal conductivity is governed by the relation
-a.
-b.
-c.
-d.
+
 ### References
 1.Holman, J. P., Heat Transfer, 10th Edition., Tata McGraw-Hill Education Private ltd., 2011<br>
 2.Cengel Y.A. and Ghajar A.J., “Heat and Mass Transfer: Fundamentals and Applications”, 4th Ed., McGraw Hill, 2010<br>
