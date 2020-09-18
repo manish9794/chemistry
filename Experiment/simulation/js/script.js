@@ -137,6 +137,9 @@
             document.getElementById("graph").src="images/Graph.png"
         };
 
+
+
+
         // show final results
         function showresults(){
             setTimeout(delay16sec,16000);
@@ -212,6 +215,12 @@
                 alert("Wrong answer , please try again ! 🎯")
                
             };
+        }
+
+
+        function performanotherexperient(){
+            window.location.reload();
+            window.scrollTo(0, 0);
         }
 
         
