@@ -16,6 +16,8 @@
         var useranswer1="";
         var useranswer2="";
 
+        var isverified=false;
+
         // code for voltage slider 
         function rangeSlide(value){
             document.getElementById('rangeValue').innerHTML=value;
@@ -58,7 +60,7 @@
                 document.getElementById('demo4').innerHTML=thickness;
                 document.getElementById('demo5').innerHTML=diameter; 
                 resultShown=true;  
-            } ;      
+            } ; 
             };
 
 
@@ -76,20 +78,11 @@
                 currentvalue();
                 carousel();
                 showresults();
-                // displaygraph();
+
             } else{
                 alert('Please turn on machine/water supply');
             }
         };
-
-        //code for returing random number
-
-        function getDecimal(min, max, decimalPlaces){
-          var rand = Math.random()*(max-min) + min;
-          var power = Math.pow(10, decimalPlaces);
-          return Math.floor(rand*power) / power;
-        };
-
         //code for simulator design
 
         var myIndex = 0;
@@ -156,7 +149,6 @@
         // verify function
 
         function verify(){
-            console.log(resultShown);
             if(resultShown==true ){
                 if (selectedsample=="glycerin") {
                     document.getElementById("demo1").innerHTML =glycerinKValue;
@@ -168,6 +160,17 @@
             } else{
                 document.getElementById("demo1").innerHTML ="N.A";
             }
+            if(document.getElementById("demo1").innerHTML=="N.A"){
+                alert("Please Watch The Simulation First 👻")
+            }
+            else{
+                document.getElementById("button1").style,disabled=true;
+                document.getElementById("button1").style.background="#cccccc";
+                isverified=true
+            }
+
+
+            
         }
 
         //code to disable button
@@ -193,9 +196,17 @@
                 };
             };
 
-            if(useranswer1=="1option4" && useranswer2=="2option2" ){
-               document.getElementById('confirmation').innerHTML="Correct 👍 ";
-               displaygraph();
+            if(useranswer1=="1option4" && useranswer2=="2option3" ){
+               
+               if(isverified==true){
+                    document.getElementById('button2').disabled=true;
+                    document.getElementById('button2').style.background="#cccccc"
+                    document.getElementById('confirmation').innerHTML="Correct 👍 ";
+                    displaygraph();
+               }
+               else{
+                   alert("Please complete previous procedures first 🔥")
+               }  
             }
             else{
                 alert("Wrong answer , please try again ! 🎯")
