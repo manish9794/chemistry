@@ -42,10 +42,10 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 
 <a name="IS"></a>
 #### 3. Instructional Strategy
-###### Name of Instructional Strategy  :    <u>  Guided Inquiry
+###### Name of Instructional Strategy  :    <u>  Expository
 ###### Assessment Method: Formative assessment
 
-<u> <b>Description: </b> The experiments is based on Fourier conductivity apparatus, a series of operations involved to run the apparatus are guided, the student perform the experiment based on the instructions and understand the conductivity. </u>
+<u> <b>Description: </b> The experiments is based on Fourier conductivity apparatus. As the students are performing the experiment on basis of Fourier law, and expected results are obtained from which student can verify the previously learnt Fourier law. </u>
 <br>
 <br/>
 <div align="right">
@@ -63,8 +63,8 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.| User will be able to: <br> Describe the Fourier’s law of conductivity | Answer a question based on Fourier formula| 1. Thermal conductivity is defined as the heat flow per unit time if :<br>a. When the temperature gradient is unity<br>b. Across the wall with no temperature<br>c. Through a unit thickness of the wall<br>d. <strong><em>Across unit area where the temperature gradient is unity</em></strong><br>
-2.| User will be able to:<br> classify material on basis of conductivity |Classify the results of different liquids  <br> |Classify a good and bad conductor <br>
-3.| User will be able to:<br> calculate the conductivity of different liquids |Select different sample for experiment  <br> |A graph show relative conductivity of different liquids <br>
+2.| User will be able to:<br> classify material on basis of conductivity |Select different sample for experiment  <br> |On the basis of material the user set the variable to determine the temperature of Cold plate temperature  <br>
+3.| User will be able to:<br> calculate the conductivity of different liquids | The user will calculate the value according to formula <br> |calculate the value of conductivity <br>
 4.| User will be able to:<br> examine the conductor and insulator materials |Change the liquid material with different water, mercury, glycerol  <br> |Lowest thermal conductivity is shown by: <br>a. Fresh Water <br>b. Mercury <br>c. <strong><em>**Glycerol**</em></strong> <br> d. All sample has same thermal conductivity<br>
 
 
@@ -83,12 +83,12 @@ Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the s
 
 Sr.No | What Students will do? |	What Simulator will do?	| Purpose of the task
 :--|:--|:--|:--:
-1.| student select a <br> sample liquid| Sample Beaker  |Selection of desired liquid
-2.| Student turn ON the <br> cooling water supply | A blue color liquid seen flowing  <br> through upper plate  |Cooling plate
-3.|Student turn on the  <br> apparatus (using <br>Knob) | Light on display panel turn | Switch on the apparatus
+1.| student select a <br> sample liquid| Highlight the Sample Beaker  |Selection of desired liquid
+2.| Student turn ON the <br> cooling water supply | A blue color liquid seen flowing  <br> through upper plate  | In order to maintain constant temperature in Cooling plate
+3.|Student turn on the  <br> apparatus (using <br>Knob) | Light on display panel turns green | Switch on the apparatus
 4.|Student set the <br> Voltage level using <br>slider / knob | Set a desired V/A ratio| Calculation of heat transfer q=VxA
 5.|Student click on <br> “Done” | the simulator starts and gives readings | experiment simulation
-6.|Student perform calculation | nothing | manual calculation
+6.|Student calculate the amount of heat supplied | Student input the value of Voltage and current | value of Heat supplied is calculated
 7.|Student click on Verify your results | reading for Thermal conductivity displays | verify calculation
-8.|Nothing | The relative conductivity graph is shown | Observe relative conductivity of different liquids
+8.|Answer the quiz | Student select the correct option on basis of experiment performed | for formative assessment of experiment
 
