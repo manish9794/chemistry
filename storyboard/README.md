@@ -40,33 +40,18 @@ In the simulator user will be able to see the virtual prototype of experimental 
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-1. Describe what is meant by thermocouple?<br>
-  a) Junction of two metal rods<br>
-  b) the place where two bodies of different temperature are connected.<br>
-  c) The sensor which detect the temperature change<br>
-  d) The combination of conductor and insulator<br>
+1. Thermal conductivity is defined as the heat flow per unit time if <br>
+  a) When the temperature gradient is unity<br>
+  b) Across the wall with no temperature<br>
+  c) Through a unit thickness of the wall<br>
+  d) Across unit area where the temperature gradient is unity<br>
 
-2. The thermocouple works on the principle of –<br>
-  a) Peltier effect <br>
-  b) Lorenz effect <br>
-  c) Fourier effect <br>
-  d) Wein’s effect <br>
-  
-Explanation: A thermocouple is known as the tool which senses the temperature change. The thermocouple is based on the Peltier effect. The temperature difference is produced by the exchange of heat between electric junctions.<br>
-
-3. “Thermal conductivity represents the amount of heat conducted across the unit area when a temperature difference of one kelvin”. select True or False<br>
-  a)True<br>
-  b)False<br>
-  
-Explanation : thermal conductivity is amount of heat conducted across unit area and through unit distance.<br>
-
-4. The thermal conductivity and the electrical conductivity of a metal at absolute temperature are related as<br>
-  a)k/σ T<br>
-  b)k/σ<br>
-  c)k σ/T<br>
-  d)k/T<br>
-
-Answer (a) It is defined as the ratio of thermal conductivity to the product of electrical conductivity and temperature.<br>
+2. Lowest thermal conductivity is shown by <br>
+  a) Fresh Water <br>
+  b) Mercury <br>
+  c) Glycerol <br>
+  d) All sample has same thermal conductivity <br>
+ 
 
 ##### 2.5 Allow pitfalls:
 If user do not turn on the water supply the simulator will show the pop up warning. It is necessory to maintain the temperature of cooling plate constant to achieve constant heat transfer<br> 
