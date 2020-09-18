@@ -20,7 +20,7 @@
 
 <a name="LO"></a>
 #### 1. Focus Area : Reinforce theoritical concept
-<br>The experiment is based on Fourier's conductivity instrument available in lab and student need to perform experiment. The experiments helps to compare the conductivityn of differenet liquids to develop their understanding about Fourier's law.
+<br>The experiment is based on Fourier's conductivity instrument available in lab and student need to perform experiment. The experiments helps to compare the conductivity of differenet liquids to develop their understanding about Fourier's law. With the help of previously learnt concepts regarding Fourier's law the student will be able to reregisters his concepts.
 
 #### 2. Learning Objectives and Cognitive Level
 
