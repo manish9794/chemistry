@@ -28,8 +28,9 @@
 Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>describe the concept of thermal conductivity <br>(Fourier law of conductivity) | [Understand](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Describe](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
-2.| User will be able to: <br>calculate the conductivity of different liquids<br>| [Apply](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Calculate](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
-3.| User will be able to: <br>classify material on basis of conductivity<br> | [Apply](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Classify](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
+2.| User will be able to: <br>classify material on basis of conductivity<br> | [Understanding](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Classify](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
+3.| User will be able to: <br>calculate the conductivity of different liquids<br>| [Apply](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Calculate](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
+
 4.| User will be able to: <br>examine the conductor and insulator materials<br> | [Analyze](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Examine](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
 
 
