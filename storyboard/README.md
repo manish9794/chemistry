@@ -69,8 +69,7 @@ Explanation : thermal conductivity is amount of heat conducted across unit area 
 Answer (a) It is defined as the ratio of thermal conductivity to the product of electrical conductivity and temperature.<br>
 
 ##### 2.5 Allow pitfalls:
-If user do not turn on the water supply the simulator will show the pop up warning.<br>
-If user do not turn on the heater the simulator will show the pop up warning. 
+If user do not turn on the water supply the simulator will show the pop up warning. It is necessory to maintain the temperature of cooling plate constant to achieve constant heat transfer<br> 
 
 ##### 2.6 Conclusion:
 User will take approximately 10 minutes for understanding the procedure. The data generation through simulator require 4-5 minutes. Further user require 15 minutes to complete the calculation and plotting graph. So, total time taken to complete experiment is 30 minutes.
@@ -93,7 +92,7 @@ A = Area of the cylinder in m2 (A = πr2, r is radius of plate)
 q = heat supplied ( V x i )
 
 
-### 3. Flowchart 4
+### 3. Flowchart
 <img src="flowchart/flowchart.png"/><br>
 
 
