@@ -16,7 +16,10 @@
         var useranswer1="";
         var useranswer2="";
 
-        var isverified=false;
+
+        var simulationseen=false;
+
+
 
         // code for voltage slider 
         function rangeSlide(value){
@@ -46,6 +49,7 @@
                 document.getElementById('demo4').innerHTML=thickness;
                 document.getElementById('demo5').innerHTML=diameter;  
                 resultShown=true; 
+                simulationseen=true;
             } else if (selectedsample=="freshwater") {
                 // document.getElementById("demo1").innerHTML=freshwaterKValue;
                 document.getElementById("demo2").innerHTML=hotplate;
@@ -53,6 +57,7 @@
                 document.getElementById('demo4').innerHTML=thickness;
                 document.getElementById('demo5').innerHTML=diameter;  
                 resultShown=true; 
+                simulationseen=true;
             } else {
                 // document.getElementById("demo1").innerHTML =mercuryKValue;
                 document.getElementById("demo2").innerHTML=hotplate;
@@ -60,6 +65,7 @@
                 document.getElementById('demo4').innerHTML=thickness;
                 document.getElementById('demo5').innerHTML=diameter; 
                 resultShown=true;  
+                simulationseen=true;
             } ; 
             };
 
@@ -78,6 +84,8 @@
                 currentvalue();
                 carousel();
                 showresults();
+                
+
 
             } else{
                 alert('Please turn on machine/water supply');
@@ -169,7 +177,6 @@
             else{
                 document.getElementById("button1").style,disabled=true;
                 document.getElementById("button1").style.background="#cccccc";
-                isverified=true
             }
 
 
@@ -199,22 +206,22 @@
                 };
             };
 
-            if(useranswer1=="1option4" && useranswer2=="2option3" ){
-               
-               if(isverified==true){
+            if(simulationseen==true){
+                if(useranswer1=="1option4" && useranswer2=="2option3" ){
                     document.getElementById('button2').disabled=true;
                     document.getElementById('button2').style.background="#cccccc"
                     document.getElementById('confirmation').innerHTML="Correct 👍 ";
                     displaygraph();
-               }
-               else{
-                   alert("Please complete previous procedures first 🔥")
                }  
-            }
             else{
                 alert("Wrong answer , please try again ! 🎯")
                
             };
+            }else{
+                alert("Please watch the simulation first");
+            }
+
+           
         }
 
 
@@ -223,6 +230,37 @@
             window.scrollTo(0, 0);
         }
 
+        function round(value, decimals) {
+            return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
+          }
+
+
+
+        function  calculateresult(){
+
+            if(simulationseen==true){
+            var a=document.getElementById('hottemp').value;
+            var b=document.getElementById('coldtemp').value;
+            var c=document.getElementById('thickness').value;
+            var d=document.getElementById('radius').value;
+            var numerator=(12*c)/1000;
+            console.log(numerator);
+            var area=3.14*d*d;
+            console.log(area);
+            var denominator=area*(a-b);
+            console.log(denominator);
+            var kvalue=(numerator/denominator)*1000000;
+            var kvaluecalculated=round(kvalue,4);
+            console.log(kvalue);
+            document.getElementById("valuethermal").innerHTML=kvaluecalculated+" W/(m⋅&#176C)";
+        
+            }else{
+                alert("Please watch the simulator first");
+            }
+
+            
+
+        }
         
 
 

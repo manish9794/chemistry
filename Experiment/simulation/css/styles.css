@@ -248,3 +248,28 @@ body{
   display: inline-block;
   font-size: 16px;
 }
+
+/* button 4 */
+.button4 {
+  background:  linear-gradient(to right, #52575d, #41444b);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+
+/* button 5 */
+.button5 {
+  background:  linear-gradient(to right, #52575d, #41444b);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
