@@ -1,4 +1,8 @@
-        
+        /**
+ * Virtual Labs 
+ *
+ * @author Shubham Kumar | shubham.kumar10102@gmail.com
+ */
         var glycerinKValue= "0.285 W/(m⋅&#176C)";
         var hotplate="55.1 &#176C";
         var gcoldplate="19.7 &#176C";        
